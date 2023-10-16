@@ -14,7 +14,7 @@ from skimage.feature import greycomatrix, greycoprops
 from skimage.color import rgb2lab
 
 # Set the path to your image directory
-image_dir = "cats"
+image_dir = "src/cats"
 
 # Set the OMP_NUM_THREADS environment variable
 os.environ['OMP_NUM_THREADS'] = '4'

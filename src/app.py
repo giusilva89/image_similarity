@@ -92,6 +92,8 @@ def main():
 
     app = dash.Dash(__name__)
 
+    server = app.server
+
     styles = {
         'uploadButton': {
             'border': 'none',
